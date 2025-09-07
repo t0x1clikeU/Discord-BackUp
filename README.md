@@ -1,7 +1,6 @@
 # Discord Member Backup Bot
 
 Discord で **ユーザー認証・バックアップ・参加管理** ができる BOT です。  
-Flask + Discord Bot を組み合わせ、OAuth2 を使った本人確認を行い、認証済みユーザーをサーバーに参加させたり、ロールを自動付与します。  
 
 ---
 
