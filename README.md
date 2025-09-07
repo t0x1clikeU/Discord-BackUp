@@ -35,9 +35,10 @@ Flask + Discord Bot を組み合わせ、OAuth2 を使った本人確認を行�
 - ライブラリ  
   ```bash
   pip install discord.py flask pyngrok requests
- ```
+
 
 ## 📂 ファイル構成
+
 ```
 ├── main.py                # メインスクリプト
 ├── verified_users.json    # 認証済みユーザーのデータ
