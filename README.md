@@ -46,6 +46,7 @@ Flask + Discord Bot を組み合わせ、OAuth2 を使った本人確認を行�
 ```
 
 🛠️ 使い方
+```
 1. Discord Developer Portal の設定
 
 アプリケーションを作成
@@ -53,15 +54,9 @@ Flask + Discord Bot を組み合わせ、OAuth2 を使った本人確認を行�
 Bot を作成し、トークンを取得
 
 OAuth2 → Redirects に ngrok で表示される REDIRECT_URI を登録
-
-OAuth2 スコープに以下を追加
-
-identify
-
-guilds.join
-
+```
 2. 設定ファイルの編集
-
+```
 BOT.py の上部を編集してください：
 
 TOKEN = "YOUR_DISCORD_BOT_TOKEN"
@@ -69,7 +64,7 @@ CLIENT_ID = 123456789012345678
 CLIENT_SECRET = "YOUR_CLIENT_SECRET"
 NGROK_AUTHTOKEN = "YOUR_NGROK_AUTHTOKEN"
 DEVELOPER_ID = 123456789012345678  # あなたのDiscord ID
-
+```
 3. 起動
 python BOT.py
 
