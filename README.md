@@ -66,7 +66,7 @@ DEVELOPER_ID = 123456789012345678  # あなたのDiscord ID
 ```
 3. 起動
 ```
-python BOT.py
+python main.py
 ```
 
 起動すると ngrok の URL が表示されます。
