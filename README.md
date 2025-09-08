@@ -56,7 +56,7 @@ OAuth2 → Redirects に ngrok で表示される REDIRECT_URI を登録
 ```
 2. 設定ファイルの編集
 
-BOT.py の上部を編集してください：
+main.py の上部を編集してください：
 ```
 TOKEN = "YOUR_DISCORD_BOT_TOKEN"
 CLIENT_ID = 123456789012345678
